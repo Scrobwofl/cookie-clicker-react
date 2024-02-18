@@ -10,7 +10,6 @@ export default function Upgrades({
   return (
     <div>
       <h2 id="upgrades-title">Buy An Upgrade!</h2>
-      <p>(Careful.. it will cost you!)</p>
       <div id="upgrades-container">
         {data.map((upgrade) => (
           <div
