@@ -7,9 +7,9 @@ import Score from "./components/Score";
 import FinalGameScreen from "./components/FinalGameScreen";
 
 export default function App() {
-  const [playerScore, setPlayerScore] = useState(1);
+  const [playerScore, setPlayerScore] = useState(0);
   const [multiplierValue, setMultiplierValue] = useState(1);
-  const [gameTimer, setGameTimer] = useState(60);
+  const [gameTimer, setGameTimer] = useState(61);
   const [finalScore, setFinalScore] = useState(0);
   const [showFinalPage, setShowFinalPage] = useState(false);
 
