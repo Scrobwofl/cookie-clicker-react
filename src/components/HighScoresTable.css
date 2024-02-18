@@ -1,0 +1,25 @@
+#high-scores-table {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  background-color: steelblue;
+  margin: 1rem;
+  border-radius: 1rem;
+  overflow: auto;
+}
+
+#high-scores-table > ul {
+  text-align: left;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+}
+
+#high-scores-table > ul > li {
+  padding: 0.5rem 2rem;
+  list-style: none;
+}
+
+#high-scores-table > ul > li > span {
+  font-weight: 900;
+}

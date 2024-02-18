@@ -1,0 +1,14 @@
+#game-timer {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  border-radius: 2rem;
+  background-color: beige;
+  padding: 0.5rem 1rem;
+}
+
+#game-timer > p {
+  color: black;
+  margin: 0;
+  padding: 0;
+}

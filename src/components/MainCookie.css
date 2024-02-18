@@ -1,0 +1,32 @@
+#cookie-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+#cookie-container > h2 {
+  font-size: 1.6rem;
+  margin: 1rem;
+  color: lightseagreen;
+}
+
+#cookie-container > p {
+  font-size: 1rem;
+  margin: 0.5rem;
+}
+
+#cookie {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+  z-index: 100;
+  margin: 0;
+  margin-top: -20px;
+  padding: 0;
+}
+
+#cookie > h2 {
+  font-size: 2rem;
+}

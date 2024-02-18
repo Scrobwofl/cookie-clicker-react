@@ -1,0 +1,32 @@
+#upgrades-title {
+  background-color: teal;
+  padding: 1rem;
+  margin-bottom: 0;
+}
+
+#upgrades-container {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: auto;
+  background-color: black;
+  place-items: center;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  padding: 1rem;
+}
+
+.upgrade-item {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 2rem;
+  height: auto;
+  padding: 0 2rem;
+  z-index: 200;
+  background-color: teal;
+}
+
+#upgrade-item p {
+  line-height: 0.5rem;
+}
